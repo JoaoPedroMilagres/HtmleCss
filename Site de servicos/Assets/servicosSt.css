@@ -1,0 +1,76 @@
+html {
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0rem;
+
+    /* NÃO PRECISEI AJUSTAR A IMAGEM */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/744296fd00695359942a80f9/pexels-photo-442152.jpeg);  
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.content {
+    width: 100rem;
+    height: 80rem;
+
+    margin: 9rem 50rem 8rem 40rem;
+}
+
+h1 {
+    position: absolute;
+    top: 10rem;
+
+    margin-left: 1rem;
+
+    font-size: 6rem;
+    color: #fff;   
+}
+
+h3 {
+    position: absolute;
+    top: 26rem;
+
+    margin-left: 1rem;    
+
+    font-size: 3rem;
+    color: #fff;
+}
+
+.box {
+    width: 30rem;
+    height: 27rem;
+
+    margin: 33rem 1rem 0rem 1rem;
+    padding: .5rem;
+
+    /* POSICIONANDO AS DIVS LADO A LADO */
+    display: inline-block;
+
+    border-radius: 5%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none; 
+    
+    background-color: #fff;
+    color: #000;
+}
+
+.services {
+  margin-bottom: 7rem;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 300ms;
+    border-bottom: solid 0.9rem;
+}
+
+
+
+
+
+
+
